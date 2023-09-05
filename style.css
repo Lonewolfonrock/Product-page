@@ -1,0 +1,68 @@
+body{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+
+    padding: 20px;
+    background-color: lightblue;
+    margin-bottom: 40px;
+}
+.main {
+    display: flex;
+    
+    
+}
+
+.main2 {
+    display: flex;
+    align-items: center;
+}
+
+.side_image {
+    margin-left: 30px;
+    margin-right: 20px;
+    /* Your existing styles for side_image */
+}
+
+.sideimage_src {
+    border: 1px solid rgb(120, 120, 120);
+    margin: 10px 5px;
+    width: 3vw;
+    padding: 10px 10px;
+    display: block;
+}
+
+.main_src {
+    width: 50vw;
+     /* Prevent the main image from shrinking */
+}
+
+.side_content {
+    /* Your existing styles for side_content */
+    margin: 0 auto;
+    text-align: center;
+    min-width: 300px;
+    font-size: 25px;
+}
+.side_content hr{
+    width: 30vw;
+}
+.left{
+    margin: 20px 30px;
+    font-size: 20px;
+    text-align: left;
+}
+.left div{
+    display: flex;
+    
+}
+ul li{
+    margin: 2px 0px;
+}
+.sideimage_src:hover {
+    transform: scale(1.05); /* Slightly enlarge the image on hover */
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.5); /* Add a yellowish shadow */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Add smooth transitions */
+}
+
