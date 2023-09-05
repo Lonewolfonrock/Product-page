@@ -4,7 +4,7 @@ body{
 }
 header{
 
-    padding: 20px;
+    padding: auto;
     background-color: lightblue;
     margin-bottom: 40px;
 }
