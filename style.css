@@ -1,9 +1,8 @@
-*{
-    margin: 0px;
+margin: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 header{
-
+    
     padding: auto;
     background-color: lightblue;
     margin-bottom: 40px;
